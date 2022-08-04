@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../proyecto.css" />
+    <title>Dulce Abadesa ,Pasteleria Artesanal</title>
+</head>
+
+<body>
+    <header>
+        <h1>DULCE ABADESA</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="pasteleriaartesanal.html">PASTELERIA ARTESANAL</a>
+                </li>
+                <li>
+                    <a href="quienessomos.html">QUIENES SOMOS</a>
+                </li>
+                <li>
+                    <a href="galeria.html">GALERIA</a>
+                </li>
+                <li>
+                    <a href="contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <form action="/action_page.php">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">NOMBRE</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">APELLIDO</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="country">DE DONDE ERES</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="country" name="country">
+                            <option value="buenos aires">localidad</option>
+                            <option value="buenos aires">BUENOS AIRES </option>
+                            <option value="buenos aires">CAPITAL FEDERAL</option>
+                            <option value="la plata">LA PLATA</option>
+                            <option value="otros">OTROS</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <fieldset>
+                    <legend>Envianos tus redes</legend>
+                    <div nombre y apellido>
+                        <input type="text">
+                        <label for="mail_nombre y apellido">mail</label>
+                        <input type="text" id="mail_nombre y apellido">
+                        <label for="num_nombre y apellido">telefono</label>
+                        <input type="number">
+                    </div>
+                    <div>
+                        <p>comentario</p>
+                        <textarea name="" id="" cols="25" rows="10">
+                        </textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="enviar formulario">
+                        <input type="reset" value="restablecer formulario">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>informacion</legend>
+                    <p>pedido</p>
+                    <input type="radio" name="informacion">
+                    <p>producto</p>
+                    <input type="radio" name="informacion">
+                </fieldset>
+                <fieldset>
+                    <p>ACEPTAR TERMINOS Y CONDICIONES</p>
+                    <input type="checkbox">
+                </fieldset>
+                <fieldset>
+                    <legend>EXTRAS</legend>
+                    <select name="" id="">
+                        <option value="">combos</option>
+                        <option value="">promociones</option>
+                        <option value="">marca</option>
+                        <option value="">favoritos</option>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer id="gid">
+        <div>
+            <img src="../img/logonuevo.jpg" alt="dulce abadesa">
+        </div>
+        <div class="redes ">
+            <div data-aos="zoom-in">
+                <p>redes sociales</p>
+                <div class="instagram">
+                    <a href="../index.html" target="_blank" class="ico"><img src="../img/modelo43.png" alt="Instagram"></a>
+                </div>
+                <div class="facebook">
+                    <a href="../index.html" target="_blank" class="ico"><img src="../img/modelo47.png" alt="Facebook"></a>
+                </div>
+                <div class="twitter">
+                    <a href="../index.html" target="_blank" class="ico"><img src="../img/modelo45.png"alt="Twitter"></a>
+                </div>
+                <div class="watsapp">
+                    <a href="../index.html" target="_blank" class="ico"><img src="../img/modelo60.png"alt="watsapp"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
